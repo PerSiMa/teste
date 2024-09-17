@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    /* border: 5px solid red; */
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-riot-games:hover path {
+
+    cursor: pointer;
+}
+
+.container-logo {
+    display: flex;
+
+}
+
+.exclamacao {
+    width: 35px;
+}
+
+.logo-imagem {
+    border: 2px solid rgb(0, 38, 255);
+    width: 115px;
+}
+
+.logo-riot-games {
+    border: 2px solid rgb(0, 119, 255);
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu ul {
+    border: 2px solid rgb(0, 119, 255);
+}
+
+.menu li {
+    display: inline-block;
+
+}
+
+.menu li a {
+    font-size: 20px;
+    color: white;
+    margin: 0 15px;
+}
